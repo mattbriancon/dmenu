@@ -376,6 +376,7 @@ keypress(XKeyEvent *ev)
 		case XK_KP_Enter:
 			break;
 		case XK_bracketleft:
+		case XK_space:
 			cleanup();
 			exit(1);
 		default:
